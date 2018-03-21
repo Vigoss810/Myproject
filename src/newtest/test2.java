@@ -26,7 +26,6 @@ public class test2 {//用两个栈实现一个队列
         test2 test=new test2();
         test.push(1);
         test.push(2);
-        test.push(3);
         System.out.println(test.pop());
 
     }
