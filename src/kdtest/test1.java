@@ -41,7 +41,9 @@ package kdtest;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class test1 {
+public class test1 {//这道题是一道规律题，如果开头字母是R，则一定是2个，如果开头字母是L，则看到第一个R之前有几个L，再看第一个R后有没有字母，
+    // 如果没有则输出第一个R前的L个数+1
+    //如果有字母则加上2
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList arrayList = new ArrayList();

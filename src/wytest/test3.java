@@ -22,11 +22,11 @@ public class test3 {
         String s = sc.next();
         int index = 1;
         int sum = 1;
-        for (int i = 1; i < s.length(); i++) {
-            if (s.charAt(i - 1) != s.charAt(i)) {
+        for (int i = 1; i < s.length(); i++) {//循环遍历数组，找出最大01串
+            if (s.charAt(i - 1) != s.charAt(i)) {//如果i-1和i不等，即为一串01串
                 sum++;
-                if (sum > index) {
-                    index = sum;
+                if (sum > index) {//判断sum和当前最大01串长度的大小
+                    index = sum;//如果sum大则更新index
                 }
             } else {
                 sum = 1;
