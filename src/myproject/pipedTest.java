@@ -12,7 +12,7 @@ public static void main(String[] args) throws IOException, InterruptedException 
 	t2.start();
 	t1.join();
 	t2.join();
-	System.out.println("ÔËÐÐÍê±Ï");
+	System.out.println("");
 }
 
 	
@@ -57,7 +57,7 @@ class outputTest extends Thread{
 			for (byte c : b) {
 				pos.write(c);
 				pos.flush();
-				System.out.println("Ð´Ïß³ÌÖ´ÐÐÍê±Ï");
+				System.out.println("Ð´ï¿½ß³ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½");
 				try {
 					Thread.sleep(1000);
 				} catch (InterruptedException e) {

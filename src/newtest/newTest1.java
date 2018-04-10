@@ -7,7 +7,7 @@ public class newTest1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
     String str1;
-    System.out.println("ÇëÊäÈëÒ»ĞĞ×ÖÄ¸£º");
+    System.out.println("");
     Scanner sc=new Scanner(System.in);
     str1=sc.nextLine();
        System.out.print(sort(str1));
@@ -22,8 +22,7 @@ public class newTest1 {
 		for(int i=0;i<str.length();) {
             tmp=str.charAt(str.length()-i-1);
             str1.append(tmp);
-             
-             i++;
+			i++;
 		}
 		return str1.toString();
 	}

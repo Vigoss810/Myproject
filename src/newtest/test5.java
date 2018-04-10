@@ -1,5 +1,5 @@
 package newtest;
-
+//约瑟夫环
 import java.util.ArrayList;
 import java.util.Iterator;
 
